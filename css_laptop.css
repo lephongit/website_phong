@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(58, 179, 58);
+    margin: 10px 15px 10px 15px;
+    text-align: center;
+    width: 98%;
+    border: 1px solid #aaa7a7;
+}
+
+.name{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    width: 98%;
+}
+.hl
+{
+color: rgb(10, 190, 25);
+background-color: aquamarine;
+border: dashed 1px orange;
+width: 750px; height: 50px;
+text-align: center;
+margin: 10px auto;
+padding: 20px 15px 20px 15px;
+font-size: 16px;
+font-weight: bold;
+border-radius: 5px;
+}
+.root>li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.root li a{
+    text-decoration: none;
+    color: purple;
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+}
+.menu_web{background-color: aqua;
+width: 98%;
+height: 50px;
+display: block;
+margin: 0px auto;}
+
+.root li a:hover{background-color: rgb(162, 167, 167); 
+    color: orange;}
+    .submenu{width: 200px;
+    background-color: aquamarine;
+color: purple; 
+min-height: 80px;
+display: none;
+position: absolute;}
+.submenu li{list-style: none;}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: purple;
+    display: block;
+    border: 1px #ccc solid;
+    line-height: 50px;
+    text-align: 15px;
+}
+.root li:hover .submenu{display: block;
+background-color: aqua;
+color: white;
+transition: ease-in-out 0.35s;}
+.submenu li a:hover{
+    background-color: rgb(162, 167, 167)e;
+    color: orange;
+   transform: ease-in-out 0.35s;
+}
+.noidung{width: 98%;
+margin: 0px auto;
+border: 1px ;}
+.h1,.sp1{border: 1px solid #ccc;}
+.sp1{width: 65px;height: 55px;}
+s{color: red;}
+.giamoi{color: blue; font-size: 17px;
+font-weight: bold;}
+.lspt{font-weight: bold; font-size: 20pt; color: blue;}
